@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mur Public Twitch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div>
+            <h1>STREAMERS<br><span>EN DIRECT</span></h1>
+            <p>
+                Découvrez qui est en live sur le serveur.
+                Cliquez sur un streamer pour rejoindre sa chaîne Twitch.
+            </p>
+        </div>
+
+        <div class="live-counter">
+            <span id="liveCount">0</span> / <span id="totalCount">0</span> LIVE
+        </div>
+    </div>
+
+    <div class="cards" id="cards"></div>
+
+</div>
+
+<script src="streamers.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
