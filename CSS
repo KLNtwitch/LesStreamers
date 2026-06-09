@@ -1,0 +1,80 @@
+body{
+    background:#0b0b0b;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px;
+}
+
+h1{
+    font-size:70px;
+    font-weight:900;
+}
+
+h1 span{
+    color:#ff3131;
+}
+
+.counter{
+    text-align:right;
+    margin-bottom:40px;
+    font-size:30px;
+}
+
+#liveCount{
+    color:#ff3131;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#121212;
+    border:1px solid #222;
+    border-radius:20px;
+    padding:25px;
+}
+
+.top{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.avatar{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+
+.name{
+    font-size:25px;
+    font-weight:bold;
+}
+
+.status{
+    display:inline-block;
+    margin-top:10px;
+    padding:6px 15px;
+    border-radius:20px;
+}
+
+.live{
+    background:red;
+}
+
+.offline{
+    background:#333;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
